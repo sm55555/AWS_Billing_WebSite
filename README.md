@@ -2,7 +2,7 @@
 
 enviroment : Spring boot
 
-How to update latest Code
+## How to update latest Code
 
 ~~~
 
@@ -16,7 +16,7 @@ How to update latest Code
 
 ~~~
 
-Using the SDK for Java 1.x and 2.x Side by Side
+## Using the SDK for Java 1.x and 2.x Side by Side
 
 pom.xml
 
