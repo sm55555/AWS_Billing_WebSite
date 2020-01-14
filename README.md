@@ -8,4 +8,6 @@ How to update latest Code
 
 3. Main menu -> Project -> Clean -> Project Click
 
+F12 + Network -> disable cache 하면 캐시 없이 바로 로딩됨 ㅋㅋㅋ
+
 
