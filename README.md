@@ -141,7 +141,7 @@ pom.xml
 
 IOC(inversion of control)
 
-흐름의 역전 -> 기존의 개발자가 코드로 흐름을 제어하는게 -> 스프링의 autowied bean 이런걸로 제어희 흐름이 바꾸미
+흐름의 역전 -> 기존의 개발자가 코드로 흐름을 제어하는게 -> 스프링의 autowied bean 이런걸로 제어의 흐름을 프레임워크 본인이 가지게 됨
 
 DI(Dependency Injection)
 
