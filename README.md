@@ -137,6 +137,69 @@ pom.xml
 
 ~~~~
 
+Library
+
+~~~
+
+import com.amazonaws.auth.AWSStaticCredentialsProvider;
+import com.amazonaws.auth.BasicAWSCredentials;
+import com.amazonaws.services.ec2.AmazonEC2;
+import com.amazonaws.services.ec2.AmazonEC2Client;
+import com.amazonaws.services.ec2.model.DescribeInstancesRequest;
+import com.amazonaws.services.ec2.model.DescribeInstancesResult;
+import com.amazonaws.services.ec2.model.Instance;
+import com.amazonaws.services.ec2.model.Reservation;
+import com.hist.macle.common.ApiResponseMessage;
+import com.hist.macle.service.UsageService;
+import com.hist.macle.vo.CategoryCostVo;
+import com.hist.macle.vo.MonthlyCostVo;
+import com.hist.macle.vo.MonthlyUsageVo;
+import com.hist.macle.vo.UserVo;
+
+BasicAWSCredentials awsCreds = new BasicAWSCredentials("", "");
+    	
+        final AmazonEC2 ec2 = AmazonEC2Client.builder()
+        	    .withRegion("ap-northeast-2")
+        	    .withCredentials(new AWSStaticCredentialsProvider(awsCreds))
+        	    .build();
+        
+        boolean done = false;
+
+        DescribeInstancesRequest request = new DescribeInstancesRequest();
+        
+        while(!done) {
+            DescribeInstancesResult response = ec2.describeInstances(request);
+           
+            for(Reservation reservation : response.getReservations()) {
+
+        for(Instance instance : reservation.getInstances()) {
+        		 System.out.print(instance.getTags() + " ");
+        		 System.out.print(instance.getPrivateIpAddress() + " ");
+        		 System.out.println(instance.getPublicDnsName() + " ");
+        		 System.out.print(instance.getPlacement() +  " ");
+        		 System.out.println(instance.getInstanceId() + " ");
+        		 System.out.print(instance.getState() + " ");
+                 System.out.print(instance.getSecurityGroups() + " ");
+                 System.out.println(instance.getImageId() + " ");
+                 System.out.print(instance.getInstanceType() + " ");
+                 System.out.print(instance.getArchitecture() + " ");
+                 System.out.print(instance.getPublicIpAddress() + " ");
+                 System.out.println(instance.getLaunchTime() + " ");
+                 System.out.println("---------------------------------------------------------");
+                }    
+               
+            }
+
+            request.setNextToken(response.getNextToken());
+
+            if(response.getNextToken() == null) {
+                done = true;
+            }
+        }
+
+~~~
+
+
 ## Spring concept 
 
 IOC(inversion of control)
