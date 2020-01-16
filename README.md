@@ -219,3 +219,9 @@ DI(Dependency Injection)
 -> 그다음 serviceImpl에서 return 값으로 만든 vo 를 설정하고 받는다,
 
 -> Controller에서 get 값으로 받는다 .
+
+## 오늘 한 실수 
+
+-> JS파일에서 data : param 으로 넘겼는데 바로 아래줄에 data : null이 있엇음
+
+-> 내가 불러 오려고 했던 AK, SK 하필이면 데이터가 없는 곳에 값을 찍고 있엇음
