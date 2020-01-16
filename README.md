@@ -209,3 +209,13 @@ IOC(inversion of control)
 DI(Dependency Injection)
 
 그에따라 스프링만의 방식으로 bean 이나 setter등에서 코드의 의존성을 주입
+
+## 스프링 흐름
+
+-> js 파일에서 예를들어 acct값을 parma에 집ㅈ어넣고   ajax 방식으로 data 부분 으로 넘긴다 
+
+->  mapper 인터페이스에서 사용할 @Parmam으로 mapper 폴더 진짜 db 쿼리문에서 작동하고 -> 그오른쪽 변루소 get 함수에서 받아온다
+
+-> 그다음 serviceImpl에서 return 값으로 만든 vo 를 설정하고 받는다,
+
+-> Controller에서 get 값으로 받는다 .
