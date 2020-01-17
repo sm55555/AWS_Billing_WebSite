@@ -237,3 +237,8 @@ DI(Dependency Injection)
 
 
 Letme,,,,,,
+
+## Datablles  row 추가하는법
+
+그냥 추가하는게 아니라 
+Databebles 함수를 써서 추가해야 Paging이 적용이 된다 ,
