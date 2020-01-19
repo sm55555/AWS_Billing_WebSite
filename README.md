@@ -251,7 +251,21 @@ i normally add parmeter (data : param) but,,,, The nextline of code was initiali
 
 ~~~
 
-code
+var getCostTrendline = function(acct) {
+	if(acct == undefined || acct == null) {
+		acct = $("#acct_trendline").val();
+	}
+	var param = {
+		acct : acct
+	};
+
+	$.ajax({
+	    url:'/usage/trendline', // 요청 할 주소
+	    async:true,// false 일 경우 동기 요청으로 변경
+	    type:'GET',
+	    data: param,// 전송할 데이터
+	    data: null, // null data
+	    dataType:'json',// xml, json, script, html
 
 ~~~
 
@@ -266,8 +280,6 @@ if your URL contains parameter(ex : account)
 localhost/awsresource?account=dhtkdals321
 ~~~
 
-
-Letme,,,,,,
 
 ## How to dynamic row add using Datables(JS Library)
 
