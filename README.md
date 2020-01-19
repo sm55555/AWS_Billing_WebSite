@@ -204,11 +204,11 @@ BasicAWSCredentials awsCreds = new BasicAWSCredentials("", "");
 
 IOC(inversion of control)
 
-흐름의 역전 -> 기존의 개발자가 코드로 흐름을 제어하는게 -> 스프링의 autowied bean 이런걸로 제어의 흐름을 프레임워크 본인이 가지게 됨
+Generally, developers control the flow of code -> In Spring developers get control of the flow of code using Autowide, bean
 
 DI(Dependency Injection)
 
-그에따라 스프링만의 방식으로 bean 이나 setter등에서 코드의 의존성을 주입
+In Spring, Typically Inject the dependency of the code using a bean file or Setter Keyward
 
 ## 스프링 흐름
 
