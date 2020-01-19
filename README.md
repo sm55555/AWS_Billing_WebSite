@@ -227,18 +227,23 @@ DI(Dependency Injection)
 -> 내가 불러 오려고 했던 AK, SK 하필이면 데이터가 없는 곳에 값을 찍고 있엇음
 
 
-## ajax url 주소 받아오는 법
+## How to apply ajax url(include Parameter)
 
-변수가 acct 면
+if your URL contains parameter(ex : account)
 
 ~~~
-만약 변수가 있으면 ex) localhost/awsresource?acc=111111111
+localhost/awsresource?account=dhtkdals321
 ~~~
 
 
 Letme,,,,,,
 
-## Datablles  row 추가하는법
+## How to dynamic row add using Datables(JS Library
 
-그냥 추가하는게 아니라 
-Databebles 함수를 써서 추가해야 Paging이 적용이 된다 ,
+if you are add table row using just Html id, it is not appling paging
+
+But if you want to apply paging you have to using Datatables fucntion,,
+
+~~~
+exexex
+~~~
