@@ -214,6 +214,27 @@ In Spring, Typically Inject the dependency of the code using a bean file or Sett
 
 -> In Js, Transfer The variable using ajax and call Declared URL(In Controller)
 
+~~~
+
+var getCategoryCost = function(categoryType, acct) {
+		if(acct == undefined || acct == null) {
+			acct = $("#acct_category").val();
+		}
+		var param = {
+			categoryType : categoryType,
+			acct : acct
+		};
+		
+		$.ajax({
+		    url:'/usage/category', // 요청 할 주소
+		    async:true,// false 일 경우 동기 요청으로 변경
+		    type:'GET',
+		    data: param,// 전송할 데이터
+		    dataType:'json',// xml, json, script, html
+
+
+~~~
+
 -> In Mapper Interface, Declares the variable in @param and brings the required data from DB using DB query
 
 -> Data is received as object by ORM method and setting by get, set fucntion
