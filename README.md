@@ -220,11 +220,19 @@ DI(Dependency Injection)
 
 -> Controller에서 get 값으로 받는다 .
 
-## 오늘 한 실수 
+## A Mistake made today 
 
--> JS파일에서 data : param 으로 넘겼는데 바로 아래줄에 data : null이 있엇음
+-> In JS section
 
--> 내가 불러 오려고 했던 AK, SK 하필이면 데이터가 없는 곳에 값을 찍고 있엇음
+i normally add parmeter (data : param) but,,,, The nextline of code was initializing parameter (data : null)
+
+~~~
+
+code
+
+~~~
+
+The data i want to get is null,,,,,,
 
 
 ## How to apply ajax url(include Parameter)
