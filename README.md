@@ -12,7 +12,7 @@ enviroment : Spring boot
 
 * Main menu -> Project -> Clean -> Project Click
 
-* 12 + Network -> disable cache 하면 캐시 없이 바로 로딩됨 ㅋㅋㅋ
+* 12 + Network -> Checking "disable cache" loads immediately without cache
 
 ~~~
 
