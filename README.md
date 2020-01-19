@@ -269,12 +269,23 @@ localhost/awsresource?account=dhtkdals321
 
 Letme,,,,,,
 
-## How to dynamic row add using Datables(JS Library
+## How to dynamic row add using Datables(JS Library)
 
 if you are add table row using just Html id, it is not appling paging
 
 But if you want to apply paging you have to using Datatables fucntion,,
 
 ~~~
-exexex
+
+for(var i=0; i<rds_Running+rds_Stopped; i++){
+	rds_table.row.add( [
+		obj.rds_detail[i*4],
+		obj.rds_detail[i*4],
+		obj.rds_detail[i*4+1],
+		obj.rds_detail[i*4+2],
+		obj.rds_detail[i*4+3]
+
+    ] ).draw( false );
+}
+
 ~~~
