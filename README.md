@@ -301,3 +301,6 @@ for(var i=0; i<rds_Running+rds_Stopped; i++){
 }
 
 ~~~
+
+
+List로 string string List<Integer> 받기 존나 어ㅕㅂㄷ ㅌㅇ
