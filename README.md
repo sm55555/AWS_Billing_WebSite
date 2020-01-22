@@ -304,3 +304,7 @@ for(var i=0; i<rds_Running+rds_Stopped; i++){
 
 
 List로 string string List<Integer> 받기 존나 어ㅕㅂㄷ ㅌㅇ
+	
+## chart height setting
+
+chart에서 var 변수 선언하고 style.height = "40px"; 방식으로 만들기,,,
