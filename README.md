@@ -304,6 +304,8 @@ for(var i=0; i<rds_Running+rds_Stopped; i++){
 
 
 List로 string string List<Integer> 받기 존나 어ㅕㅂㄷ ㅌㅇ
+
+라이브러리르 만든 객체는 html에서 컨트롤 하는게 아니라 js에서 컨트롤 해야한다..
 	
 ## chart height setting
 
