@@ -272,6 +272,8 @@ var getCostTrendline = function(acct) {
 The data i want to get is null,,,,,,
 
 
+
+
 ## How to apply ajax url(include Parameter)
 
 if your URL contains parameter(ex : account)
@@ -309,7 +311,8 @@ List로 string string List<Integer> 받기 존나 어ㅕㅂㄷ ㅌㅇ
 	
 ## chart height setting
 
-chart에서 var 변수 선언하고 style.height = "40px"; 방식으로 만들기,,,
+if you want to modify something Not modify 
+
 ~~~
 document.getElementById("rds-lineChart").style.height = "40px";
 ~~~
