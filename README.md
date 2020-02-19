@@ -316,3 +316,30 @@ if you want to modify something Not modify
 ~~~
 document.getElementById("rds-lineChart").style.height = "40px";
 ~~~
+
+# 개빡치는 chartjs old data 삭제하는법
+
+첫번쨰로는 그냥 destroy();인스턴스 하려고 했는데 안됬다;;;
+
+그래서 여러 삽질을 하다가 
+
+innertHTML 방식으로 해결
+
+```
+document.getElementById("chartContainer").innerHTML = '&nbsp;';
+	                		document.getElementById("chartContainer").innerHTML = '<canvas id="datatransfer-lineChart" height="40"></canvas>';
+	                		var datatransfer_chart = document.getElementById("datatransfer-lineChart").getContext("2d");
+	                		
+	                		document.getElementById('datatransfer-lineChart').style.height = "40px";
+			                document.getElementById("ec2-lineChart").style.height = "40px";	
+			                document.getElementById("rds-lineChart").style.height = "40px";
+			                document.getElementById("dynamodb-lineChart").style.height = "40px";
+			                
+	                		new Chart(datatransfer_chart, {
+			                    type : 'line',
+			                    data : datatransfer_chart_data,
+			                    options : lineOption
+	                		});
+
+```
+
