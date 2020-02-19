@@ -325,7 +325,7 @@ document.getElementById("rds-lineChart").style.height = "40px";
 
 innertHTML 방식으로 해결
 
-```
+```javascript
 document.getElementById("chartContainer").innerHTML = '&nbsp;';
 	                		document.getElementById("chartContainer").innerHTML = '<canvas id="datatransfer-lineChart" height="40"></canvas>';
 	                		var datatransfer_chart = document.getElementById("datatransfer-lineChart").getContext("2d");
