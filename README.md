@@ -350,3 +350,30 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 <div>
 	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG">
 </div>
+
+# 날짜 전날로 바꾸는거
+
+```javascript
+
+var nowMonthDateList = function() {
+                var list = [];
+                var date = new Date();
+                if(date.getDate() == 1) {
+                        date.setDate(0);
+                }
+                
+                do {
+                        var current = date.getDate();
+                        var month = date.getMonth() + 1;
+                        
+                        list.unshift(lpad(month, 2, 0) + "-" + lpad(current, 2, 0));
+                        current --;
+                        date.setDate(current);
+                } while(current > 0);
+                return list;
+        }
+
+```
+
+# 만약 현재가 1일이면 쿼리에서 그전달 1일에서 ~끝일까지 뽑아내는거
+
