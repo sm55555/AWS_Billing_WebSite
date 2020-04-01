@@ -343,3 +343,6 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 
 ```
 
+# 개빡치는 datatable head 라인만 왼쪽으로 치우치는 현상
+
+해당 테이블을 다시 그려줘야한다..  $(테이블아이디).dataTable().fnDraw();
