@@ -351,6 +351,21 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG">
 </div>
 
+# aws sdk 권한 정상적으로 주기 위한 user, permmision 세팅
+
+user 초기 세팅
+
+<div>
+	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG">
+</div>
+
+IAM 권한 관련
+
+<div>
+	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78105902-3634c600-742d-11ea-9015-9f71d2fdf1e1.PNG">
+</div>
+
+
 # 날짜 전날로 바꾸는거
 
 ```javascript
