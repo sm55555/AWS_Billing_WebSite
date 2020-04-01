@@ -346,3 +346,6 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 # 개빡치는 datatable head 라인만 왼쪽으로 치우치는 현상
 
 해당 테이블을 다시 그려줘야한다..  $(테이블아이디).dataTable().fnDraw();
+
+<div>
+	<img width="200px" src="![개좆같은상황](https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG)">
