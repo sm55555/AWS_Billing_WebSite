@@ -356,7 +356,7 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 user 초기 세팅
 
 <div>
-	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG">
+	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78106160-ca9f2880-742d-11ea-90e5-d112d2bd3a7c.PNG">
 </div>
 
 IAM 권한 관련
