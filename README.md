@@ -377,3 +377,8 @@ var nowMonthDateList = function() {
 
 # 만약 현재가 1일이면 쿼리에서 그전달 1일에서 ~끝일까지 뽑아내는거
 
+```
+
+CURDATE() -> IF(DATE_FORMAT(CURDATE(), '%d') = '01', CURDATE() - INTERVAL 1 DAY, CURDATE())
+
+```
