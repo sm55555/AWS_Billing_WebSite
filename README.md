@@ -397,3 +397,7 @@ var nowMonthDateList = function() {
 CURDATE() -> IF(DATE_FORMAT(CURDATE(), '%d') = '01', CURDATE() - INTERVAL 1 DAY, CURDATE())
 
 ```
+
+# query 짜르기
+
+기존 SUBSTR(A.USAGE_TYPE, 1, 4) -> A.REGION
