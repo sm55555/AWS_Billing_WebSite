@@ -407,6 +407,11 @@ CURDATE() -> IF(DATE_FORMAT(CURDATE(), '%d') = '01', CURDATE() - INTERVAL 1 DAY,
 
 # canvas 화면 모바일로 할때 겹쳐지는거 수정
 
+
+<div>
+	<img width="800px" height="300px" src="
+https://user-images.githubusercontent.com/38831314/80327906-8f4f1880-8878-11ea-871d-6c4799a836d5.PNG">
+</div>
 ```html
 
 <div id="ec2-resource-chart-div" class="row" style="display: none;margin-bottom:1rem;height:350px;"></div>
