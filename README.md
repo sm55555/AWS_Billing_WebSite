@@ -368,11 +368,6 @@ IAM 권한 관련
 
 # 날짜 전날로 바꾸는거
 
-<div>
-	<img width="800px" height="300px" src="
-https://user-images.githubusercontent.com/38831314/80327906-8f4f1880-8878-11ea-871d-6c4799a836d5.PNG">
-</div>
-
 
 ```javascript
 
