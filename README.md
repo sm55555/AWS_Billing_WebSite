@@ -398,6 +398,31 @@ CURDATE() -> IF(DATE_FORMAT(CURDATE(), '%d') = '01', CURDATE() - INTERVAL 1 DAY,
 
 ```
 
+
+# canvas 화면 모바일로 할때 겹쳐지는거 수정
+
+```html
+
+<div id="ec2-resource-chart-div" class="row" style="display: none;margin-bottom:1rem;height:350px;"></div>
+
+감싸고 있는거 height 충분하게준다.
+
+```
+
+```javascript
+
+$('#ec2-resource-chart-div').html('<canvas id="ec2-lineChart" height="30"></canvas>');
+
+스크립트 이너 html 수정
+
+maintainAspectRatio: false,
+
+차트생성 lineoption 추가 
+
+```
+
+
+
 # query 짜르기
 
 기존 SUBSTR(A.USAGE_TYPE, 1, 4) -> A.REGION
