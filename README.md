@@ -427,9 +427,9 @@ maintainAspectRatio: false,
 
 ```
 
-# 배포 방법...
+# how to deploy
 
-바꾼 부분 싱크로나이즈드 -> 빨간색(충돌난거) -> 내꺼 수정 먼저하고 -> 내꺼 복사한다음에 -> 업데이트 하고(서버에 있는거 받는다) -> 내꺼 넣고 commit -> 젠킨스 배포
+go to changed file -> Syncronize with Repository -> Red is meaning conflict -> fisrt modify my code -> copy my code -> update and revert -> paste my code -> jenkins build
 
 # query 짜르기
 
