@@ -429,7 +429,7 @@ maintainAspectRatio: false,
 
 # how to deploy
 
-go to changed file -> Syncronize with Repository -> Red is meaning conflict -> fisrt modify my code -> copy my code -> update and revert -> paste my code -> jenkins build
+go to changed file -> Syncronize with Repository -> Red is meaning conflict -> fisrt modify my code -> copy my code -> update(remote) and revert(local) -> paste my code in local section -> commit ->jenkins build now
 
 # query 짜르기
 
