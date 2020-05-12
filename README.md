@@ -348,7 +348,7 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 해당 테이블을 다시 그려줘야한다..  $(테이블아이디).dataTable().fnDraw();
 
 <div>
-	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG">
+	<img width="100%" height="300px" src="https://user-images.githubusercontent.com/38831314/78088937-b85ac580-7400-11ea-95f0-d10823d639a9.PNG">
 </div>
 
 # aws sdk 권한 정상적으로 주기 위한 user, permmision 세팅
@@ -356,13 +356,13 @@ document.getElementById("chartContainer").innerHTML = '&nbsp;';
 user 초기 세팅
 
 <div>
-	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78106160-ca9f2880-742d-11ea-90e5-d112d2bd3a7c.PNG">
+	<img width="100%" height="300px" src="https://user-images.githubusercontent.com/38831314/78106160-ca9f2880-742d-11ea-90e5-d112d2bd3a7c.PNG">
 </div>
 
 IAM 권한 관련
 
 <div>
-	<img width="800px" height="300px" src="https://user-images.githubusercontent.com/38831314/78105902-3634c600-742d-11ea-9015-9f71d2fdf1e1.PNG">
+	<img width="100%" height="300px" src="https://user-images.githubusercontent.com/38831314/78105902-3634c600-742d-11ea-9015-9f71d2fdf1e1.PNG">
 </div>
 
 
@@ -403,7 +403,7 @@ CURDATE() -> IF(DATE_FORMAT(CURDATE(), '%d') = '01', CURDATE() - INTERVAL 1 DAY,
 # canvas 화면 모바일로 할때 겹쳐지는거 수정
 
 <div>
-	<img width="1000px" height="200px" src="https://user-images.githubusercontent.com/38831314/80332189-11453e80-8885-11ea-91ab-4eafba080697.PNG">
+	<img width="100%" height="200px" src="https://user-images.githubusercontent.com/38831314/80332189-11453e80-8885-11ea-91ab-4eafba080697.PNG">
 </div>
 
 
